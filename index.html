@@ -26,28 +26,31 @@
       alt="espirral roxo"
     />
     <!-- </div> -->
-    <div id="geral">
-      <div class="novosElementos">
-        <div class="elementos">
+    <div class="novosElementos">
+      <div class="elementos">
+        <div id="inputbutton">
           <input type="text" id="tarefa" placeholder="INSIRA O ELEMENTO..." />
           <button onclick="adicionarTarefa()">ADD</button>
         </div>
-        <div class="inseridos">
-          <ul id="listaTarefas"></ul>
-          <div id="arvore-container"></div>
+        <div class="resultados">
+          <div class="informacoes">
+            <div class="informacoes"></div>
+            <button onclick="abrir()">INFORMAÇÕES</button>
+            <button onclick="abrir2()">COMPRIMENTO</button>
+            <button onclick="abrir3()">TRAVESSIAS</button>
+            <button onclick="abrir4()">BALANCEAMENTO</button>
+          </div>
+          <!-- <div class="campoResultados"></div> -->
         </div>
       </div>
-      <div class="resultados">
-        <div class="informacoes">
-          <div class="informacoes"></div>
-          <button onclick="abrir()">INFORMAÇÕES</button>
-          <button onclick="abrir2()">COMPRIMENTO</button>
-          <button onclick="abrir3()">TRAVESSIAS</button>
-          <button onclick="abrir4()">BALANCEAMENTO</button>
+      <div class="inseridos">
+        <ul id="listaTarefas"></ul>
+        <div id="arvore-container">
+          <svg id="arvore-svg"></svg>
         </div>
-        <!-- <div class="campoResultados"></div> -->
       </div>
     </div>
+    <div id="geral"></div>
 
     <div id="popup" class="popup">
       <div class="popup-content">
@@ -79,5 +82,5 @@
         <button id="closePopup" onclick="fechar()">Fechar</button>
       </div>
     </div>
-</body>
-</html>
+  </body>
+ </html>

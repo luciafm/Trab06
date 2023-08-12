@@ -166,7 +166,7 @@ class BST {
     return this._isBalanced(node.left) && this._isBalanced(node.right);
   }
 
-  // Adicione os métodos de travessia aqui
+  // Métodos de travessia
   inorderTraversal() {
     const result = [];
     this._inorderTraversal(this.root, result);

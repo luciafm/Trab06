@@ -307,8 +307,11 @@ function mostrarInformacoes() {
 
   travessiasElemento.innerHTML =
     `Travessia em Ordem:<br>${inorder}<br>` +
+    `<br>`+
     `Travessia Pré-Ordem:<br>${preorder}<br>` +
+    `<br>`+
     `Travessia Pós-Ordem:<br>${postorder}<br>` +
+    `<br>`+
     `Travessia Level Order:<br>${levelorder}`;
 }
 

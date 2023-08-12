@@ -8,6 +8,7 @@
 
 # Dificuldades encontradas
 * O manipulamento da árvore está sendo difícil, uma vez que, conforme a árvore vai crescendo, as bolinhas vão se aproximando, o que faz perder o formato de uma árvore binária e ao mesmo tempo ocorre a sobreposição dos elementos.
+- Foi decidido então utilizar o método de lista ,apresentado pelo professor em sala de aula, para fazer a representação visual da árvore.
 * O botão de travessia deu um pequeno trabalho na hora de quebrar linha, visto que o uso do "\n" não estava sendo lido. Depois de uma dor de cabeça, foi corrigido usando o comando "br"
 * O código de balanceamento não está funcionando corretamente, sendo que em alguns momentos, mesmo a árvore estando desbalanceada, ele informa que está balanceada.
 

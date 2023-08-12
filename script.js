@@ -306,10 +306,10 @@ function mostrarInformacoes() {
   const levelorder = tree.levelOrderTraversal().join(", ");
 
   travessiasElemento.textContent =
-    `Travessia em Ordem: ${inorder}\n` +
-    `Travessia Pré-Ordem: ${preorder}\n` +
-    `Travessia Pós-Ordem: ${postorder}\n` +
-    `Travessia Level Order: ${levelorder}`;
+    `Travessia em Ordem:\n ${inorder}\n` +
+    `Travessia Pré-Ordem:\n ${preorder}\n` +
+    `Travessia Pós-Ordem:\n ${postorder}\n` +
+    `Travessia Level Order:\n ${levelorder}`;
 }
 
 function desenharArvore() {

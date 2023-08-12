@@ -99,8 +99,8 @@
   #img1,
   #img2 {
     position: absolute;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     z-index: -1;
   }
   #img2 {

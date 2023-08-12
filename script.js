@@ -305,11 +305,11 @@ function mostrarInformacoes() {
   const postorder = tree.postorderTraversal().join(", ");
   const levelorder = tree.levelOrderTraversal().join(", ");
 
-  travessiasElemento.textContent =
-    `Travessia em Ordem:\n ${inorder}\n` +
-    `Travessia Pré-Ordem:\n ${preorder}\n` +
-    `Travessia Pós-Ordem:\n ${postorder}\n` +
-    `Travessia Level Order:\n ${levelorder}`;
+  travessiasElemento.innerHTML =
+    `Travessia em Ordem:<br>${inorder}<br>` +
+    `Travessia Pré-Ordem:<br>${preorder}<br>` +
+    `Travessia Pós-Ordem:<br>${postorder}<br>` +
+    `Travessia Level Order:<br>${levelorder}`;
 }
 
 function desenharArvore() {
